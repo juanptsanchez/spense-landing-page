@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [Github]()
-- Live Site URL: [Netlify]()
+- Repository URL: [Github](https://github.com/juanptsanchez/spense-landing-page)
+- Live Site URL: [Netlify](https://spense-landing-page.netlify.app/)
 
 ### Built with
 
