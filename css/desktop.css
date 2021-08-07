@@ -1,0 +1,183 @@
+/* ================================================
+DESKTOP screen and (min-width: 1024px)
+================================================ */
+
+/* ================================================
+HEADER
+================================================ */
+/* DESKTOP HEADER */
+.nav__middle ul li a:hover, .nav__login ul li:first-child a:hover {
+	text-decoration: underline;
+}
+.nav__login ul li:last-of-type a:hover {
+	background-color: var(--textFontColor);
+}
+/* LOGO */
+.header__logo a {
+	font-size: 3.5rem;
+}
+
+/* ================================================
+MAIN
+================================================ */
+.site__main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 3rem;
+}
+.hero {
+	background-image: url(../assets/hero_desktop.png);
+	height: auto;
+	background-position: left top;
+	grid-column: 2 / 3;
+}
+.grid__cont  {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+/* MAIN CONTENT */
+.main-text h1 {
+	font-size: 5rem;
+    line-height: 6rem;
+}
+.main-text p {
+	line-height: 3rem;
+    width: 80%;
+}
+.main-form form input {
+	max-width: 65%;
+	margin: 0;
+}
+.main-form form input:first-child {
+	border: 1px solid var(--grayFont);
+	display: block;
+	margin-bottom: 2rem;
+}
+.main-form form input:last-child {
+	width: 35%;
+}
+.main-form form input:last-child:hover {
+	background-color: var(--textFontColor);
+}
+
+/* ================================================
+LOGOS
+================================================ */
+.logos {
+    display: none;
+	width: 100%;
+}
+.slide-action {
+	display: none;
+}
+.desktop-logos {
+    display: block;
+}
+.all-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0 6rem;
+}
+
+/* ================================================
+ESCROW SECTION
+================================================ */
+.escrow-section {
+	padding: 0 7rem;
+	display: flex;
+	align-items: center;
+}
+.escrow-content {
+	min-width: 400px;
+	padding: 0;
+}
+.escrow-content h3 {
+	font-size: 3rem;
+	margin-top: 0;
+}
+.escrow-content a {
+    text-decoration: none;
+	padding-bottom: 0;
+}
+.escrow-content a:hover {
+	color: var(--textFontColor);
+    text-decoration: underline;
+}
+.escrow-content a i {
+	margin-left: 1rem;
+}
+.escrow-img {
+	background-image: url(../assets/phone-desktop.png);
+    width: 50%;
+	min-width: 440px;
+	background-position: bottom;
+    background-size: cover;
+	align-self: flex-end;
+}
+
+/* ================================================
+TEXT EDITOR SECTION
+================================================ */
+.text-editor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+.text-editor h3 {
+    font-size: 4rem;
+	margin: 0;
+}
+.text-editor a {
+	padding-bottom: 0;
+    text-decoration: none;
+}
+.text-editor a:hover {
+	color: var(--textFontColor);
+    text-decoration: underline;
+}
+.text-editor a i {
+	margin-left: 1rem;
+	font-size: 2rem;
+}
+.text-editor img {
+	order: -1;
+	width: 60%;
+	padding-bottom: 3rem;
+}
+
+/* ================================================
+FOOTER
+================================================ */
+.site-footer {
+	background-color: #000;
+	padding: 5rem 0;
+}
+.footer--grid {
+	display: flex;
+    justify-content: space-between;
+}
+.grid-item ul li a:hover {
+    text-decoration: underline;
+}
+.grid-item p:first-child {
+	font-size: 2rem;
+}
+.item1 {
+    width: 40%;
+}
+.site-footer .author p {
+	text-align: center;
+    margin: 8rem 0 0;
+}
+.site-footer .author p a:hover {
+	text-decoration: underline;
+}
+.site-footer .author p a i {
+	font-size: 2rem;
+    margin-right: .5rem;
+}

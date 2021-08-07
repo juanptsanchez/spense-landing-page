@@ -1,0 +1,153 @@
+/* ================================================
+TABLET screen and (min-width: 600px)
+================================================ */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.6rem;
+}
+
+/* ================================================
+HEADER
+================================================ */
+/* TABLET HEADER */
+.site__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__middle {
+	display: block;
+}
+.nav__middle ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.nav__middle ul li a {
+    color: var(--headingsColor);
+}
+.nav__login {
+	display: block;
+}
+.nav__login ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav__login ul li a {
+    color: var(--headingsColor);
+}
+.nav__login ul li:last-child a {
+    background-color: var(--headingsColor);
+	color: #fff;
+	border: none;
+	display: block;
+    padding: 1.5rem 1.5rem;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+	width: 100%;
+	max-width: 300px;
+    font-family: 'Cabin', sans-serif;
+}
+.nav__menu {
+    display: none;
+} 
+
+/* LOGO */
+.header__logo a {
+	font-size: 3.5rem;
+}
+
+/* ================================================
+MAIN
+================================================ */
+/* HERO */
+.hero {
+	background-image: url(../assets/hero_tablet.png);
+	width: 100%;
+	background-size: cover;
+	background-position: top left;
+}
+/* MAIN CONTENT */
+.main-text h1 {
+	width: 75%;
+}
+
+/* ================================================
+LOGOS
+================================================ */
+.partners-heading {
+	font-size: 3rem;
+}
+.logos {
+	width: 60%;
+}
+.logos .item {
+	margin: 3rem 0;
+}
+.slide-action {
+	font-size: 2rem;
+}
+.slide-action i {
+	margin-left: 1rem;
+}
+
+/* ================================================
+ESCROW SECTION
+================================================ */
+.escrow-section {
+	padding: 4rem 7rem 0
+}
+.escrow-content h3 {
+	padding-top: 0;
+}
+.escrow-img {
+	background-image: url(../assets/phone-tablet.png);
+    background-position: top;
+    background-size: cover;
+}
+
+/* ================================================
+TEXT EDITOR SECTION
+================================================ */
+.editor-content h3 {
+	margin: 7rem 0 0;
+}
+
+/* ================================================
+FOOTER
+================================================ */
+.site-footer {
+	background-color: #000;
+	padding: 3rem 0;
+}
+.footer--grid {
+	grid-template-rows: 2fr;
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+	gap: 2rem;
+}
+.grid-item p:first-child {
+	color: #fff;
+	font-size: 2rem;
+	margin: 1.5rem 0 0;
+}
+.grid-item ul li a {
+	color: var(--grayFont);
+	line-height: 3rem;
+}
+.item2 {
+	grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+.item3 {
+	grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.site-footer .author {
+	text-align: center;
+}
